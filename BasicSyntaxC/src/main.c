@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//just test
 int add(int a, int b)
 {
     int result = a + b;
@@ -20,6 +21,4 @@ int main(void)
     printf("Hello, World!\n");
 
     return 0;
-
-    
 }
