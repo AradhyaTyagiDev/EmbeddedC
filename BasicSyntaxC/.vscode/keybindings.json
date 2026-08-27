@@ -1,0 +1,15 @@
+[
+        {
+                "key": "cmd+r",
+                "command": "workbench.action.debug.restart",
+                "when": "inDebugMode"
+        },
+        {
+                "key": "cmd+r",
+                "command": "workbench.action.debug.start",
+                "args": {
+                        "configurationName": "Run BasicSyntax"
+                },
+                "when": "!inDebugMode"
+        }
+]
