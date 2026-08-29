@@ -1,24 +1,16 @@
 #include <stdio.h>
+#include "var.h"
 
-//just test
-int add(int a, int b)
-{
-    int result = a + b;
+int main(void) {
 
-    return result;
-}
+    total += 10;
 
-int main(void)
-{
-    int x = 10;
-    int y = 20;
+    printf("total: %d\n", total);
 
-    int sum = add(x, y);
+    total = add(total, 5);
 
-    printf("x = %d\n", x);
-    printf("y = %d\n", y);
-    printf("sum = %d\n", sum);
-    printf("Hello, World!\n");
+    total = subtract(total, 3);
 
+    printf("total after addition: %d\n", total);
     return 0;
 }
