@@ -1,5 +1,9 @@
 #include <var.h>
+#include <stdio.h>
 
  int subtract(int x, int y) {
-    return x - y + total;
+     counter = 20;
+     printf("counter: %d", counter);
+
+     return x - y + counter;
 }

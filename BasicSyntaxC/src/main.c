@@ -12,5 +12,12 @@ int main(void) {
     total = subtract(total, 3);
 
     printf("total after addition: %d\n", total);
+
+    counter = 15;
+    printf("counter in main: %d\n", counter);
+
+    int16_t result =  subtract(10, 5);
+    printf("result: %d\n", result);
+
     return 0;
 }
