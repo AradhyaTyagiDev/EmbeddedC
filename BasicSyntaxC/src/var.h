@@ -1,10 +1,9 @@
-// #pragma once
+#pragma once
 
 #include <stdint.h>
 
 extern int8_t total;
+extern int8_t counter;
 
 int add(int x, int y);
- int subtract(int x, int y);
-
- static int8_t counter = 0;
+int subtract(int x, int y);
