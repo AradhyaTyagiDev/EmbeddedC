@@ -24,7 +24,6 @@ int main(void) {
 
     printf("value of count: %d\n", *ptr);
     printf("address of count: %p\n", (void *)ptr);
-    printf("address of count: %p\n", (void *)&count);
 
     *ptr = 10; // Modifying the value of count (undefined behavior)
     printf("After Modification, value of count: %d\n", *ptr);
