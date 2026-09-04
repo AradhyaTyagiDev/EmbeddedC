@@ -14,5 +14,7 @@ int main(void) {
     printf("ptr1 points to value: %d\n", *ptr1);
     printf("ptr2 points to value: %d\n", *ptr2);
 
+    pointerWithArray();
+
     return 0;
 }
