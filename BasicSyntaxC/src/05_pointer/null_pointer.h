@@ -1,0 +1,2 @@
+
+int checkForNullPointer(int *ptr);
