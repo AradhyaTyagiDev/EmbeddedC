@@ -31,3 +31,13 @@ void pointerWithArray() {
     printf("Value at 0 %d\n", *p);
     printf("Value at 1 %d\n", *(p + 1));
 }
+
+void arrayAndPointer() {
+    long arr[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    long *p = arr; // Pointer to the first element of the array
+    printf("Address of first element: %ld\n", sizeof(arr));
+    printf("Address of array: %p\n", &arr);
+    printf("Value of p: %p\n", p);
+    printf("Add: %p\n", &p);
+    printf("Address of second element: %ld\n", sizeof(p));
+}
