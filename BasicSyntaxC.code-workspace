@@ -1,10 +1,12 @@
 {
         "folders": [
                 {
-                        "path": "BasicSyntaxC"
+                        "name": "MCUCodeLearning",
+                        "path": "MCUCodeLearning"
                 },
                 {
-                        "path": "MCUCodeLearning"
+                        "name": "BasicSyntaxC",
+                        "path": "BasicSyntaxC"
                 }
         ],
         "settings": {}
