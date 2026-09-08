@@ -16,7 +16,7 @@ bool configForLED(void) {
         .pull_down_en = GPIO_PULLDOWN_DISABLE,
         .intr_type = GPIO_INTR_DISABLE,
     };
-
+    
     esp_err_t configState = gpio_config(&io_conf);
 
     if ( configState != ESP_OK) {
