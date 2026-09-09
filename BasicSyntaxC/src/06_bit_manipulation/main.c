@@ -15,8 +15,6 @@ int main() {
     uint32_t bitValue = 0x00000000ULL;
     bitValue |=  (1U << 5);
 
-    
-
     printf("bitValue Int: %d\n", bitValue);
     printf("BitValue in HEX: 0x%08X\n", bitValue);
     printf("Binary: ");
