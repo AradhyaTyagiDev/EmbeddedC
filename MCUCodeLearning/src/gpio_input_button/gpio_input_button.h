@@ -1,0 +1,3 @@
+
+bool configButtonInput();
+bool getButtonState();

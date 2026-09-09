@@ -25,4 +25,7 @@ bool configButtonInput() {
     return true;
 }
 
-
+bool getButtonState() {
+    int level = gpio_get_level(BUTTON_PIN);
+    return (level == 0); // Button pressed when level is low
+}
