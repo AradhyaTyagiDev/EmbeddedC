@@ -21,13 +21,14 @@ void setup() {
 }
 
 void loop() {
-    vTaskDelay(pdMS_TO_TICKS(500));
+    ///Remove Delay and print statement for real debugging with Logic Analyser
+    vTaskDelay(pdMS_TO_TICKS(50));
     
     bool buttonPressed = getButtonState();
     if (buttonPressed) {
-        printf("Button is pressed.\n");
+        printf("BUTTON PRESSED.\n");
     } else {
-        printf("Button is not pressed.\n");
+        printf("BUTTON RELEASED.\n");
     }
 }
 
@@ -40,4 +41,3 @@ int app_main() {
     
     return 0;
 }
-

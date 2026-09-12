@@ -14,14 +14,16 @@ void setup() {
 
 void loop() {
     led(true);
+    vTaskDelay(pdMS_TO_TICKS(5000));
+    led(false);
     vTaskDelay(pdMS_TO_TICKS(500));
 }
 
 int app_main() {
-    vTaskDelay(pdMS_TO_TICKS(5000));
+    vTaskDelay(pdMS_TO_TICKS(1000));
     setup();
 
-    vTaskDelay(pdMS_TO_TICKS(5000));
+    vTaskDelay(pdMS_TO_TICKS(1000));
 
     while(1) {
         loop();
@@ -29,4 +31,3 @@ int app_main() {
     
     return 0;
 }
-

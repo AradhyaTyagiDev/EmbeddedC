@@ -4,7 +4,7 @@
 #include "freertos/task.h"
 #include "driver/gpio.h"
 
-#define BUTTON_PIN GPIO_NUM_21
+#define BUTTON_PIN GPIO_NUM_10
 
 bool configButtonInput() {
     gpio_config_t io_conf = {
@@ -27,5 +27,5 @@ bool configButtonInput() {
 
 bool getButtonState() {
     int level = gpio_get_level(BUTTON_PIN);
-    return (level == 0); // Button pressed when level is low
+    return (level == 1); // Button pressed when level is High
 }
